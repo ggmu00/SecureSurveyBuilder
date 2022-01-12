@@ -1,0 +1,22 @@
+<form action="sendAnswers.php" method="get">
+				<table>
+				<tr>
+					<td><?php echo $row['surveyName']; ?></td>
+				</tr>
+				<tr>
+					<td><?php echo $row2['question_body']; ?></td>
+				</tr>
+				<tr>
+					<td><input type = "text" name="answer"/></td>
+				</tr>
+				
+					<?php		
+					
+			}
+		}
+		?>
+		<tr>
+					<td><input type ="submit" value="Submit"/></td>
+				</tr>
+				</table>
+			</form>
